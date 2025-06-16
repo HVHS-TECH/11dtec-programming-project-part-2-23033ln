@@ -34,7 +34,7 @@ function askUserName() {
 function askQuestion(){
 askQuestion= prompt("Do you want to rent this bike?  Y for yes N for no");
 } if (askQuestion == "Y" ){
- prompt("")
+ prompt("How long do you want to ")
 } else   {
 
 }
