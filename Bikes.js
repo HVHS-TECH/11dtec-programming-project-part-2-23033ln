@@ -28,7 +28,7 @@ var askUserName
  ****************************/ 
 function askUserName() {
   prompt("What is you name?");
-  alert("Hello,")
+  alert("Hello,");
   askQuestion();
 }
 function askQuestion(){
