@@ -8,6 +8,13 @@
  Lukas
 29/04/25 
 Intro
+function askDays() {
+prompt("How long do you want to rent this for?/n 1 to 60 days only");
+} if (askDays  1 >||< 30 ){
+  alert("that will be");
+} else if (askdays == 30  60) {
+  
+}
 *****************************/
 console.log("Running Website");
 
@@ -30,13 +37,7 @@ askDays();
 } else   {
 
 }
-function askDays() {
-prompt("How long do you want to rent this for?/n 1 to 60 days only");
-} if (askDays  1 >||< 30 ){
-  alert("that will be");
-} else if (askdays == 30  60) {
-  
-}
+
 
 function rentBike(){
 askUserName();
