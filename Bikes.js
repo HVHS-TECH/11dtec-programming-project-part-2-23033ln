@@ -15,6 +15,7 @@ prompt("How long do you want to rent this for?/n 1 to 60 days only");
 } else if (askdays == 30  60) {
   
 }
+askDays();
 *****************************/
 console.log("Running Website");
 
@@ -28,12 +29,12 @@ var askUserName
 function askUserName() {
   prompt("What is you name?");
   alert("Hello,")
-  askQuestion();
+  askQuestion()
 }
 function askQuestion(){
 askQuestion= prompt("Do you want to rent this bike?  Y for yes N for no");
 } if (askQuestion == "Y" ){
-askDays();
+  
 } else   {
 
 }
