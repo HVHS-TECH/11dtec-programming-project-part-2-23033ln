@@ -27,12 +27,12 @@ var askUserName
  *Main code
  ****************************/ 
 function askUserName() {
-  prompt("What is you name?");
+  askUserName= prompt("What is you name?");
   alert("Hello,");
   askQuestion();
 }
 function askQuestion() {
-askQuestion= prompt("Do you want to rent this bike?  Y for yes N for no");
+askQuestion = prompt("Do you want to rent this bike?  Y for yes N for no");
 } if (askQuestion == "Y" ){
  prompt("How many days do you want to have it for? max of 30 days");
 } else   {
