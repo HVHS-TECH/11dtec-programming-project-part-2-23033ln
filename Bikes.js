@@ -28,14 +28,14 @@ var askUserName
  ****************************/ 
 function askUserName() {
   askUserName= prompt("What is you name?");
-  alert("Hello,");
+  alert("Error, Error");
   askQuestion();
 }
 function askQuestion() {
 askQuestion = prompt("Do you want to rent this bike?  Y for yes N for no");
 } if (askQuestion == "Y" ){
- prompt("How many days do you want to have it for? max of 30 days");
-} else   {
+ askDays();
+} if (askQuestion =="N")  {
 
 }
 function askDays() {
