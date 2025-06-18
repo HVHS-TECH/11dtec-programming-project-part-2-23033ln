@@ -38,6 +38,9 @@ askQuestion = prompt("Do you want to rent this bike?  Y for yes N for no");
 } else   {
 
 }
+function askDays() {
+  askDays = prompt("How many days do you want have this for? Max of 30 days");
+}
 
 
 function rentBike(){
