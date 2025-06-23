@@ -33,10 +33,10 @@ function askUserName() {
   askQuestion();
 }
 function askQuestion() {
-askQuestion = prompt("Do you want to rent this bike?  Y for yes N for no");
-} if (askQuestion == 'Y' ){
+askQuestion = prompt("Do you want to rent this bike?");
+} if (askQuestion == 'yes' ){
   askQuestion = prompt("How many days do you want to rent this for? Max of 30 days");
-} if (askQuestion == 'N' ){
+} if (askQuestion == 'no' ){
 alert("Have a nice day.");
 }
 function askDays() {
@@ -45,7 +45,7 @@ function askDays() {
 
 
 function rentBike(){
-askUserName();
+askQuestion();
 }
 
     
