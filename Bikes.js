@@ -44,6 +44,8 @@ function askDays() {
 }
 
 
+
+
 function rentBike(){
 askQuestion();
 }
