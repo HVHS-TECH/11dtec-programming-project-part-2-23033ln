@@ -21,6 +21,7 @@ console.log("Running Website");
 
 //variables
 var askUserName
+var as
 
 
 /**************************** 
@@ -28,7 +29,7 @@ var askUserName
  ****************************/ 
 function askUserName() {
   askUserName= prompt("What is you name?");
-  alert("Error, Error");
+  alert("Hello, ");
   askQuestion();
 }
 function askQuestion() {
