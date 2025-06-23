@@ -33,9 +33,9 @@ function askUserName() {
   askQuestion();
 }
 function askQuestion() {
-askQuestion = prompt("Do you want to rent this bike?", yes);
+askQuestion = prompt("Do you want to rent this bike?");
 } if (askQuestion == 'yes' ){
-  askQuestion = prompt("How many days do you want to rent this for? Max of 30 days", no);
+  askQuestion = prompt("How many days do you want to rent this for? Max of 30 days");
 } if (askQuestion == 'no' ){
 alert("Have a nice day.");
 }
