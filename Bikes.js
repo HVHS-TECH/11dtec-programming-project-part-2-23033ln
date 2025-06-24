@@ -21,7 +21,7 @@ console.log("Running Website");
 
 //variables
 var askUserName
-var as
+var askDays
 
 
 /**************************** 
@@ -29,13 +29,13 @@ var as
  ****************************/ 
 function askUserName() {
   askUserName= prompt("What is you name?");
-  alert("Hello, ");
+  alert("Hello, " +askUserName);
   askQuestion();
 }
 function askQuestion() {
 askQuestion = prompt("Do you want to rent this bike?");
 } if (askQuestion == 'yes' ){
-  askQuestion = prompt("How many days do you want to rent this for? Max of 30 days");
+  askQuestion = prompt("How many days do you want to rent this for? Max of 30 days" +useran);
 } if (askQuestion == 'no' ){
 alert("Have a nice day.");
 }
@@ -47,7 +47,7 @@ function askDays() {
 
 
 function rentBike(){
-askQuestion();
+askUserName();
 }
 
     
