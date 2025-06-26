@@ -26,31 +26,39 @@ var askDays
 
 /**************************** 
  *Main code
- ****************************/ 
+ ****************************/
 function askUserName() {
-  askUserName= prompt("What is you name?");
-  alert("Hello, " +askUserName);
+  askUserName = prompt("What is you name?");
+  alert("Hello, " + askUserName);
   askQuestion();
 }
 function askQuestion() {
-askQuestion = prompt("Do you want to rent this bike?");
-} if (askQuestion == 'yes' ){
-  askQuestion = prompt("How many days do you want to rent this for? Max of 30 days" +useran);
-} if (askQuestion == 'no' ){
-alert("Have a nice day.");
+  askQuestion = prompt("Do you want to rent this bike?");
+  if (askQuestion == "yes") {
+    askDays();
+  } else{ 
+    alert("Have a nice day.");
+  }
 }
 function askDays() {
   askDays = prompt("How many days do you want have this for? Max of 30 days");
+  if ( 0 < askDays || askDays < 31 ) {
+   alert("that will be $40 per week.");
+   alert("I have your ip in a phone book.")
+  } else{ 
+    alert("Chose a Vaild number");
+    askDays();
+  }
 }
 
 
 
 
-function rentBike(){
-askUserName();
+function rentBike() {
+  askUserName();
 }
 
-    
+
 
 
 /****************************
