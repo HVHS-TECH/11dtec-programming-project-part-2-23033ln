@@ -34,7 +34,7 @@ function askUserName() {
 }
 function askQuestion() {
   askQuestion = prompt("Do you want to rent this bike?");
-  if (askQuestion == "yes", "Yes", "ye") {
+  if (askQuestion == "yes", "Yes", "ye", "Ye", "Yeah", "yeah", "Sure", "sure") {
     askDays();
   } else{ 
     alert("Have a nice day.");
