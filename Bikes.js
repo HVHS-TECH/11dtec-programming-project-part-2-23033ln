@@ -42,7 +42,7 @@ function askQuestion() {
 }
 function askDays() {
   askDays = prompt("How many days do you want have this for? Max of 30 days");
-  if ( 0 < askDays || askDays < 31 ) {
+  if ( 0 > askDays || askDays < 31 ) {
    alert("that will be $40 per week.");
    alert("I have your ip in a phone book.")
   } else{ 
