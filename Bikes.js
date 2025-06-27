@@ -34,7 +34,7 @@ function askUserName() {
 }
 function askQuestion() {
   askQuestion = prompt("Do you want to rent this bike?");
-  if (askQuestion == "yes") {
+  if (askQuestion == "yes", "Yes", "ye") {
     askDays();
   } else{ 
     alert("Have a nice day.");
@@ -44,14 +44,21 @@ function askDays() {
   askDays = prompt("How many days do you want have this for? Max of 30 days");
   if ( 0 > askDays || askDays < 31 ) {
    alert("that will be $40 per week.");
-   alert("I have your ip in a gun barrel.")
+   askinsurance()
   } else{ 
     alert("Chose a Vaild number");
+    alert("I have your ip in a gun barrel.")
     askDays();
   }
 }
-
-
+function askinsurance() {
+ askinsurance =  prompt("Would you like to add insurance? ");
+   if (askinsurance == "yes" ) {
+   alert("that will add $5 a week to the total amount")
+  } else{ 
+    alert("I will take $10 away from the total cost a week")
+  }
+} 
 
 
 function rentBike() {
